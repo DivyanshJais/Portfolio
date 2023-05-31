@@ -1,0 +1,45 @@
+body,h1,h2,h3,p,li{
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+header{
+  background-color: rgb(44, 42, 42);
+  color: bisque;
+  padding: 20px;
+}
+nav ul{
+  list-style-type: none;
+}
+a{
+  color: rgb(16, 6, 132);
+  text-decoration: none;
+}
+a:hover{
+  color: blue;
+}
+nav ul li a {
+  color: bisque;
+  text-decoration: none;
+}
+h1{
+  font-size: 250%;
+  margin-bottom: 0px;
+}
+h2{
+  font-size: 190%;
+}
+section{
+  background-color: bisque;
+  padding: 20px;
+  margin-bottom: -20px;
+}
+footer {
+  background-color: rgb(44, 42, 42);
+  color: bisque;
+  padding: 10px;
+  text-align: center;
+}
