@@ -5,7 +5,7 @@ body,h1,h2,h3,p,li{
 body {
   background-image: url("https://images.saymedia-content.com/.image/t_share/MTkzODAzNTgyODUxMDY1MzI4/cool-css-backgrounds.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
   background-attachment: fixed;
   font-family: sans-serif;
   line-height: 1.5;
@@ -40,7 +40,6 @@ h2,h3,p{
   color: white;
 }
 section{
-  /* background-color: bisque; */
   padding: 20px;
   margin-bottom: -20px;
 }
@@ -50,6 +49,20 @@ footer {
   padding: 10px;
   text-align: center;
 }
-#contact pre{
+.image2 img{
+  transition: 1s ease;
+}
+.image2 img:hover{
+  transform: scale(1.2);
+  transition: 1s ease;}
+.image img{
+  transition: 1s ease;
+ 
+  }
+  
+.image img:hover{
+  transform: scale(1.2);
+  transition: 1s ease;}
+#contact div{
   text-align: center;
 }
