@@ -23,18 +23,21 @@ a{
   text-decoration: none;
 }
 a:hover{
-  color: rgb(16, 6, 132);
+  color: rgb(225,225,225);
 }
 nav ul li a {
-  color: white;
+  color:  rgb(241, 210, 67);;
   text-decoration: none;
+  margin: 0px 10px 0px;
 }
 h1{
   font-size: 250%;
   margin-bottom: 0px;
+  color: rgb(199, 78, 159);
 }
 h2{
   font-size: 190%;
+  color: rgb(205, 236, 80);
 }
 h2,h3,p{
   color: white;
@@ -42,6 +45,51 @@ h2,h3,p{
 section{
   padding: 20px;
   margin-bottom: -20px;
+}
+#about{
+  background-color: rgba(116, 140, 160, 0.479);
+  border-radius: 25px;
+  margin: 20px;
+}
+#about:hover{
+  transform: scale(1.02);
+  transition: 0.8s ease;
+}
+#education{
+  background-color: rgba(116, 140, 160, 0.479);
+  border-radius: 25px;
+  margin: 20px;
+}
+#education:hover{
+  transform: scale(1.02);
+  transition: 0.8s ease;
+}
+#skills{
+  background-color: rgba(116, 140, 160, 0.479);
+  border-radius: 25px;
+  margin: 20px;
+}
+#skills:hover{
+  transform: scale(1.02);
+  transition: 0.8s ease;
+}
+#experience{
+  background-color: rgba(116, 140, 160, 0.479);
+  border-radius: 25px;
+  margin: 20px;
+}
+#experience:hover{
+  transform: scale(1.02);
+  transition: 0.8s ease;
+}
+#contact{
+  background-color: rgba(116, 140, 160, 0.479);
+  border-radius: 25px;
+  margin: 20px;
+}
+#contact:hover{
+  transform: scale(1.02);
+  transition: 0.8s ease;
 }
 footer {
   background-color: rgb(54, 15, 94);
@@ -51,13 +99,14 @@ footer {
 }
 .image2 img{
   transition: 0.6s ease;
+  margin:10px;
 }
 .image2 img:hover{
   transform: scale(1.2);
   transition: 0.6s ease;}
 .image img{
   transition: 0.6s ease;
- 
+  margin: 20px;
   }
   
 .image img:hover{
