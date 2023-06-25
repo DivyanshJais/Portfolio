@@ -119,3 +119,13 @@ footer {
   color: rgb(15, 53, 201);
   transition: 2s ease;
 }
+#repositories{
+  background-color: rgba(116, 140, 160, 0.479);
+  border-radius: 25px;
+  margin: 20px;
+}
+#repositories:hover{
+  transform: scale(1.02);
+  transition: 0.8s ease;
+}
+
